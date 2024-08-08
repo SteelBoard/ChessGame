@@ -6,7 +6,7 @@ public partial class Cell : Node
 {
 	public int Row { get; }
 	public int Column { get; }
-	public Figure current { get; set; }
+	public Figure Сurrent { get; set; }
 
 	public Cell(int row, int column)
 	{
@@ -15,6 +15,7 @@ public partial class Cell : Node
 	}
 	public override void _Ready()
 	{
+		
 	}
 
 	// Called every frame. 'delta' is the elapsed time since the previous frame.
